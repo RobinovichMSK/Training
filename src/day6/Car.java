@@ -1,14 +1,4 @@
-package Page1;
-
-public class ClassesAndObjects {
-    public static void main(String[] args) {
-        Car car1 = new Car();
-        car1.setName("Audi");
-        car1.setColor("");
-        car1.setAge(1994);
-        System.out.println(car1.getName() + ", Cvet " + car1.getColor() + ", god vipuska " + car1.getAge());
-    }
-}
+package day6;
 
 
 class Car {
@@ -55,6 +45,10 @@ class Car {
 
     public int getAge() {
         return age;
+    }
+
+    public void info() {
+        System.out.println("Eto auto");
     }
 }
 
