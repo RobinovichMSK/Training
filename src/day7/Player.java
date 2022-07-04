@@ -50,14 +50,14 @@ public class Player {
         if (player.stamina == 0) return;
         player.stamina = stamina - 10; // что бы побыстрей устал
         System.out.println(player.stamina);
-        if (player.stamina == 0)
+        if (player.stamina <= 0)
             countPlayers--;
     }
 
     public static void info() {
         if (countPlayers < 6) {
-            System.out.println("Komandi eche ne polnie. Na pole eche est " + (6 - Player.countPlayers) + " svobodnix mest.");
-        } else if (countPlayers >= 6) {
+            System.out.println("Komandi ne polnie. Na pole eche est " + (6 - Player.countPlayers) + " svobodnix mest.");
+        } else if (countPlayers == 6) {
             System.out.println("Na pole net svobodnix mest");
         }
     }
