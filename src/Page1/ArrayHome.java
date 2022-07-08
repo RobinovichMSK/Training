@@ -2,7 +2,6 @@ package Page1;
 
 import java.util.Random;
 import java.util.Scanner;
-import java.util.concurrent.atomic.AtomicIntegerArray;
 
 public class ArrayHome {
     public static void main(String[] args) {
