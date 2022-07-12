@@ -47,6 +47,7 @@ public class MusicBand {
         for (MusicArtist artists : a.getArtists()) {
             b.getArtists().add(artists);
         }
+        a.artists.clear();
     }
     public void printArtists() {
         System.out.println(this.artists);

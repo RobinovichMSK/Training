@@ -50,6 +50,7 @@ public class MusicBand {
         for (String members : a.getMembers()){
             b.getMembers().add(members);
         }
+        a.members.clear();
     }
 
     public void printMembers(){

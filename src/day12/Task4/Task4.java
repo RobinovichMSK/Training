@@ -12,6 +12,7 @@ public class Task4 {
         members.add("ALLLLALALA");
         members.add("Gordon");
 
+
         List<String> members2 = new ArrayList<>();
         members2.add("Ushi nogi");
 
