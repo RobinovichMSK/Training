@@ -62,9 +62,10 @@ public class Task4 {
 
         System.out.println();
 
-        MusicBand.transferMembers(bands.get(0), bands.get(9));
+        MusicBand.transferMembers(bands.get(0),bands.get(9));
 
-        for (MusicBand band : bands)
-            band.printMembers();
+        for (MusicBand b : bands)
+            b.printMembers();
+
     }
 }
